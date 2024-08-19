@@ -63,7 +63,6 @@ header{
 
     background-color: white;
     color:var(--medium-gray);
-    box-shadow: -200px 0px 15px 0px rgba(0,0,0,0.6);
 }
 
 nav{
@@ -131,6 +130,7 @@ li p:hover,.inner-company-container li:hover,.hover-state:hover{
     animation-name: slideIn;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
+    box-shadow: -200px 0px 15px 0px rgba(0,0,0,0.6);
 }
 
 @keyframes slideIn {
@@ -264,5 +264,4 @@ br{
     .sponsors-container{
         max-width: 27rem;
     }
-
 }
