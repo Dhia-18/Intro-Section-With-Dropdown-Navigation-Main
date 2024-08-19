@@ -239,10 +239,11 @@ br{
 
     picture{
         grid-area: img;
+        max-width: 95%;
     }
 
     h1{
-        font-size: 60px;
+        font-size: 70px;
     }
 
     br{
