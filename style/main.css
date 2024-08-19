@@ -201,7 +201,7 @@ br{
 
 .text-container button{
     cursor: pointer;
-    padding:0.7rem 1.2rem;
+    padding:1rem 1.2rem;
     color:white;
     font-weight: 700;
 
@@ -225,7 +225,7 @@ br{
 
 @media (min-width:50rem){
     main{
-        padding:0 10%;
+        padding:0 11%;
 
         display:grid;
         align-items: center;
@@ -239,7 +239,7 @@ br{
 
     picture{
         grid-area: img;
-        max-width: 95%;
+        max-width: 85%;
     }
 
     h1{
@@ -255,7 +255,7 @@ br{
     
         align-items: flex-start;
         text-align: left;
-        gap:2rem;
+        gap:3rem;
     }
 
     .text-container p{
