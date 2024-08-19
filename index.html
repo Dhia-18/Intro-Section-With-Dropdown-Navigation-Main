@@ -9,7 +9,82 @@
   <script defer src="script.js"></script>
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 </head>
-<body>
+<body class="black">
+  <header>
+    <img src="images/logo.svg" alt="Logo Icon">
+    <img id="open-menu" src="images\icon-menu.svg" alt="Menu Icon">
+    <ul class="side-bar-nav">
+      <nav>
+        <img id="close-menu" src="images/icon-close-menu.svg" alt="Close Menu Icon">
   
+        <li>
+          <div class="features-container">
+            <p>Features</p>
+            <img src="images/icon-arrow-down.svg" alt="Arrow Down Icon">
+          </div>
+          <ul class="inner-features-container hidden">
+            <li>
+              <img src="images\icon-todo.svg" alt="Todo Icon">
+              <p>Todo List</p>
+            </li>
+            <li>
+              <img src="images/icon-calendar.svg" alt="Calendar Icon">
+              <p>Calendar</p>
+            </li>
+            <li>
+              <img src="images/icon-reminders.svg" alt="Reminder Icon">
+              <p>Reminders</p>
+            </li>
+            <li>
+              <img src="images/icon-planning.svg" alt="Planning Icon">
+              <p>Planning</p>
+            </li>
+          </ul>
+        </li>
+        
+        <li>
+          <div class="company-container">
+            <p>Company</p>
+            <img src="images/icon-arrow-down.svg" alt="Arrow Down Icon">
+          </div>
+          <ul class="inner-company-container hidden">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          </ul>
+        </li>
+  
+        <li class="hover-state">Careers</li>
+        <li class="hover-state">About</li>
+  
+      </nav>
+      <div class="buttons-container">
+        <button id="login-button">Login</button>
+        <button id="register-button">Register</button>
+      </div>
+    </ul>
+  </header>
+
+  <main>
+    <picture>
+      <source srcset="images\image-hero-desktop.png" media="(min-width:50rem)">
+      <img src="images/image-hero-mobile.png" alt="Hero Image">
+    </picture>
+    
+    <div class="text-container">
+      <h1>Make <br> remote work</h1>
+      <p>Get your team in sync, no matter your location.<br> Streamline processes, create team rituals, and watch productivity soar.</p>
+      <button>Learn more</button>
+    </div>
+
+    <div class="sponsors-container">
+      <img src="images\client-databiz.svg" alt="Databiz Client">
+      <img src="images\client-audiophile.svg" alt="Audiophile">
+      <img src="images\client-meet.svg" alt="Meet Client">
+      <img src="images/client-maker.svg" alt="Maker Client">
+    </div>
+
+  </main>
+
 </body>
 </html>
